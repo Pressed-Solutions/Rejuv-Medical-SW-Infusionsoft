@@ -9,6 +9,7 @@
  * GitHub Plugin URI: https://github.com/macbookandrew/Rejuv-Medical-SW-Infusionsoft
  */
 
+// block direct access to this file
 if (!defined('ABSPATH')) {
     exit;
 }
@@ -17,7 +18,7 @@ if (!defined('ABSPATH')) {
 add_action( 'plugins_loaded', 'rmswi_plugin_init' );
 function rmswi_plugin_init() {
     if ( class_exists( 'Infusionsoft_Classloader' ) ) {
-
+        include( 'functions.php' );
     } else {
         add_action( 'admin_notices', 'rmswi_parent_missing' );
     }
