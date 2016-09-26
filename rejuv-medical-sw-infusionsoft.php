@@ -1,12 +1,12 @@
 <?php
 /*
  * Plugin Name: Rejuv Medical SW Infusionsoft
- * Plugin URI: https://github.com/macbookandrew/Rejuv-Medical-SW-Infusionsoft
- * Description: Course Titles and Descriptions
+ * Plugin URI: https://github.com/Pressed-Solutions/Rejuv-Medical-SW-Infusionsoft
+ * Description: Custom Infusionsoft API actions
  * Version: 1.0.0
- * Author: AndrewRMinion Design
- * Author URI: https://andrewrminion.com
- * GitHub Plugin URI: https://github.com/macbookandrew/Rejuv-Medical-SW-Infusionsoft
+ * Author: Pressed Solutions
+ * Author URI: http://pressedsolutions.com.com
+ * GitHub Plugin URI: https://github.com/Pressed-Solutions/Rejuv-Medical-SW-Infusionsoft
  */
 
 // block direct access to this file
