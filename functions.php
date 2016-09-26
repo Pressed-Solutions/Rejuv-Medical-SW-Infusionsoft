@@ -29,14 +29,4 @@ function rmswi_user_register( $user_id ) {
         // add tag
         $infusionsoft_add_tag_response = Infusionsoft_ContactServiceBase::addToGroup( $infusionsoft_add_contact_response, $infusionsoft_tag );
     }
-
-    // print errors
-    if ( is_wp_error( $infusionsoft_error ) ) {
-        echo '<ul class="error_list">';
-        foreach ( $infusionsoft_error->get_error_messages() as $error ) {
-            echo '<li>' . $error . '</li>';
-        }
-        echo '</ul>';
-    }
-
 }
